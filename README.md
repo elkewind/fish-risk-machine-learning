@@ -1,4 +1,5 @@
-# ML Model Comparison for Fish Threat *current project
+# ML Model Comparison for Fish Threat 
+*current project
 
 Description: In this project, I evaluate different supervised machine learning algorithms for predicting IUCN Red List status of fish based on ecological and morphological characteristics retrieved from FishBase.
 
