@@ -15,7 +15,7 @@ This work builds off of my previous work [Identifying Key Traits in Hawaiian Fis
 
 For my analyses I use the IUCN Red List data accessed via the IUCN Red List API [1] and package rredlist [3]. Consistent with Munstermann et al., living species listed as ‘Vulnerable’, ‘Endangered’, or ‘Critically Endangered’ were categorized as ‘Threatened’. Living species listed as ‘Least Concern’ and ‘Near Threatened’ were categorized as ‘Nonthreatened’ [4]. The IUCN Red List data are limited in that many marine species have not been listed yet or have been identified as too data deficient to be evaluated. The lack of data on elusive fish may introduce bias into the models.
 
-Fish ecological data were accessed from FishBase [5] via package rfishbase [6]. Different species in the FishBase data were originally described by different people, possibly leading to errors or biases. Measurement errors in length may be present, as there are various common ways to measure the length of a fish. The species recorded in FishBase may be biased towards fish with commercial value. Data were wrangled in R and formatted in a tidy data table with the following variables.
+Fish ecological data were accessed from FishBase [5] via package rfishbase [6]. Different species in the FishBase data were originally described by different people, possibly leading to errors or biases. Measurement errors in length may be present, as there are various common ways to measure the length of a fish. The species recorded in FishBase may be biased towards fish with commercial value. Data were wrangled in R and formatted in a tidy data table.
 
 ## Methods
 
