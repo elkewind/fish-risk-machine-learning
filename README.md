@@ -23,7 +23,9 @@ For my analysis I create Lasso, K-Nearest Neighbor, Decision Tree, Bagged Decisi
 
 ## Results 
 
-(In progress)
+Because the dataset is very imbalanced with the proportion of threatened species being small, the accuracies between models don't vary much. It is difficult to get much more accurate than always choosing not threatened (the dummy classifier). All models performed better than the dummy classifier though, so that is encouraging. Looking at AUC we see that boosting decision trees was the most successful of the models when applied to the testing data. 
+
+The decision tree had the highest true positive rate of all the models and the lowest false negative rate. However, the decision tree also had the largest false positive rate (although all false positive rates were generally small). False positives in the context of investigating fish populations could cause a misuse of resources. The true negative rate was comparable across all models. Based on these metrics and the AUC, boosting is the best option because I want to minimize false positive outcomes.
 
 ## Resources
 [1] “IUCN,” IUCN Red List of Threatened Species. Version 2022-1, 2022. https://www.iucnredlist.org/ (accessed Dec. 02, 2022).
